@@ -58,3 +58,42 @@
 .baner-btn a:hover {
     color: black;
 }
+#sidenav{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    background-color: #250029;
+    width: 200px;
+    height: 100vh;
+    z-index: 1;
+    transition: 0.5s;
+}
+#sidenav nav{}
+#sidenav nav ul{
+    padding-top: 60px;
+}
+#sidenav nav ul li{
+    list-style-type: none;
+    padding: 20px 0;
+    
+}
+#sidenav nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+#menubtn{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    padding: 10px;
+    z-index: 1;
+}
+
+#menubtn img{
+    width: 40px;
+    cursor: pointer;
+    background-color: #250029;
+}
