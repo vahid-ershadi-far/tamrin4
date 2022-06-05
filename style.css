@@ -25,3 +25,36 @@
     font-size: 30px;
     font-style: italic;
 }
+.baner-btn{
+    text-align: center;
+    margin: 70px auto 0;
+}
+.baner-btn a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    display: inline-block;
+    width: 150px;
+    padding: 15px 0;
+    margin: 0 15px;
+    position: relative;
+    transition: 0.5s;
+    z-index: 1;
+}
+.baner-btn a span{
+    background-color: white;
+    width: 0%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    transition: 0.5s;
+    z-index: -1;
+}
+.baner-btn a:hover span{
+    width: 100%;
+}
+.baner-btn a:hover {
+    color: black;
+}
